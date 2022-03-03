@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Gives the browser instructions on how to display the page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Imports the universal page first. -->
+    <link rel="stylesheet" href="styles/universal.css">
+    <!-- Imports the CSS for the Main container of the page. Change for each page --> 
+    <link rel="stylesheet" href="styles/knowledge.css">
+    <!-- Imports icons -->
+    <script src="https://kit.fontawesome.com/5d5f7bf628.js" crossorigin="anonymous"></script>
+
+    <!-- Displayed on Browser Tab. Change for each page -->
+    <title>Katie Fox-HTML/CSS Knowlege</title>
+
+</head>
+<body>
+    <!-- Marks the top of the page -->
+    <div id="top"></div>
+
+<!-- Header: Do not touch! -->
+    <div class="header">
+        <!-- Places the Brand in the Top Left -->
+        <div class="col-2">
+            <a href="index.html" target="_self">
+                <img src="images/brand200.png" alt="My Brand" id="brand">
+            </a>
+        </div>
+        <!-- Places the Banner in the rest of the space -->
+        <div class="col-10">
+            <img src="images/topbanner2.gif" alt="Top Banner" id="banner">
+        </div>
+    </div>
+
+<!-- Row containing Left Menu, Main Content, and Right Menu -->    
+    <div class="row">
+        <!-- Left Menu -->
+        <!-- Stays in the Left 2 columns or above the other elements in the row on Mobile -->      
+        <div class="col-2 menu">
+        <!-- New pages should be added and copied to all other pages -->
+            <ul>
+                <li>
+                    <a href="index.html" target="_self">Home</a>
+                </li>
+                <li>
+                    <a href="gallery.html" target="_self">Gallery</a>
+                </li>
+                <li>
+                    <a href="blog.html" target="_self">Blog</a>
+                </li>
+                <li>
+                    <a class="active" href="knowledge.html" target="_self">HTML/CSS Knowledge</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Main Container -->
+        <!-- Stays in the Middle 8 columns or below the Left Menu on Mobile -->    
+        <div class="col-8">
+<!-- PUT MAIN CONTENT IN THIS AREA -->
+            <h1 class="bold">HTML/CSS Knowledge</h1>
+
+            <p class="white center">This is only a sample of what I can do in HTML and CSS.</p>
+
+            <h3 class="white bold center" id="basichtml">Basic HTML</h3>
+
+            <p class="green">&lt;!-- This is an HTML comment. --&gt;</p>
+
+            <p class="green">&lt;!-- Document Type: Defines the document type. --&gt;</p>
+
+            <p class="blue">&lt;!DOCTYPE html&gt;</p>
+
+            <p class="green">&lt;!-- HTML: Defines an HTML document. --&gt;</p>
+
+            <p class="blue">&lt;html&gt; &lt;/html&gt;</p>
+
+            <p class="green">&lt;!-- Head: Contains metadata and other information about the document --&gt;</p>
+
+            <p class="blue">&lt;head&gt; &lt;/head&gt;</p>
+
+            <p class="green">&lt;!-- Meta: Gives the browser instructions. --&gt;</p>
+
+            <p class="blue">&lt;meta <span class="lblue">name=</span><span class="orange">"viewport"</span> <span class="lblue">content=</span><span class="orange">"width=device-width, initial-scale=1.0"</span>&gt;</p>
+
+            <p class="green">&lt;!-- Link: Imports the CSS for the page from an external file. --&gt;</p>
+
+            <p class="blue">&lt;link <span class="lblue">rel=</span><span class="orange">"stylesheet" </span><span class="lblue">href=</span><span class="orange">"styles/index.css"</span>&gt;</p>
+
+            <p class="green">&lt;!-- Title: Defines the title for the webpage. Displayed on browser tab. Change for each page. --&gt;</p>
+
+            <p class="blue">&lt;title&gt; &lt;/title&gt;</p>
+
+            <p class="green">&lt;!-- Body: Contains everything visible on the page. --&gt;</p>
+
+            <p class="blue">&lt;body&gt; &lt;/body&gt;</p>
+
+            <p class="green">&lt;!-- Headings h1 - h6: Used to note searchable information. --&gt;</p>
+
+            <p class="blue">&lt;h1&gt; &lt;/h1&gt; <span class="white">to</span> &lt;h6&gt; &lt;/h6&gt;</p>
+
+            <p class="green">&lt;!-- Paragraph: Defines a paragraph. --&gt;</p>
+
+            <p class="blue">&lt;p&gt; &lt;/p&gt;</p>
+
+            <p class="green">&lt;!-- Line Break: Inserts a single line break. Use more than one to add space below a paragraph. --&gt;</p>
+
+            <p class="blue">&lt;br&gt;</p>
+
+            <p class="green">&lt;!-- Horizontal Line: Inserts a horizontal line in the page. --&gt;</p>
+
+            <p class="blue">&lt;hr&gt;</p>
+
+            <p class="green">&lt;!-- Image: Inserts an image. Source is the path to the image. Alt is the image information. --&gt;</p>
+
+            <p class="blue">&lt;img <span class="lblue">src=</span><span class="orange">"images/image1.jpg" </span><span class="lblue">alt=</span><span class="orange">"image information"</span> <span class="lblue">width=</span><span class="orange">"600px" </span><span class="lblue">height=</span><span class="orange">"400px"</span>&gt;</p>
+
+            <p class="green">&lt;!-- Anchor: Inserts a link to another page, another site, or to email. --&gt;</p>
+
+            <p class="blue">&lt;a <span class="lblue">href=</span><span class="orange">"page2.html" </span><span class="lblue">target=</span><span class="orange">"_self"</span>&gt; &lt;/a&gt;</p>
+
+            <p class="blue">&lt;a <span class="lblue">href=</span><span class="orange">"example.com" </span><span class="lblue">target=</span><span class="orange">"_blank"</span>&gt; &lt;/a&gt;</p>
+
+            <p class="blue">&lt;a <span class="lblue">href=</span><span class="orange">"mailto:my_email@example.com"</span>&gt; &lt;/a&gt;</p>
+
+            <p class="green">&lt;!-- Unordered List: Inserts an unordered list. List items go between the opening and closing tags. --&gt;</p>
+
+            <p class="blue">&lt;ul&gt; &lt;/ul&gt;</p>
+
+            <p class="green">&lt;!-- Ordered List: Inserts an ordered list. List items go between the opening and closing tags. --&gt;</p>
+
+            <p class="blue">&lt;ol&gt; &lt;/ol&gt;</p>
+
+            <p class="green">&lt;!-- List Item: Inserts a list item. List items go between the opening and closing tags of unordered and ordered lists. --&gt;</p>
+
+            <p class="blue">&lt;li&gt; &lt;/li&gt;</p>
+
+            <p class="green">&lt;!-- Table: Defines a table. Headings, rows, and cells must be defined inside. --&gt;</p>
+
+            <p class="blue">&lt;table&gt; &lt;/table&gt;</p>
+
+            <p class="green">&lt;!-- Table Caption: Defines a table caption --&gt;</p>
+
+            <p class="blue">&lt;caption&gt; &lt;/caption&gt;</p>
+
+            <p class="green">&lt;!-- Table Header: Defines a header cell in a table. --&gt;</p>
+
+            <p class="blue">&lt;th&gt; &lt;/th&gt;</p>
+
+            <p class="green">&lt;!-- Table Row: Defines a row in a table --&gt;</p>
+
+            <p class="blue">&lt;tr&gt; &lt;/tr&gt;</p>
+
+            <p class="green">&lt;!-- Table Cell: Defines a cell in a table --&gt;</p>
+
+            <p class="blue">&lt;td&gt; &lt;/td&gt;</p>
+
+            <p class="green">&lt;!-- Span: Defines a section in a document. Used to format font within a sentence. No line break. --&gt;</p>
+
+            <p class="blue">&lt;span&gt; &lt;/span&gt;</p>
+
+            <p class="green">&lt;!-- Div: Defines a section in a document. This is the most used tag for formatting. Causes line break. --&gt;</p>
+
+            <p class="blue">&lt;div&gt; &lt;/div&gt;</p>
+
+            <p class="green">&lt;!-- Script: Defines a script. --&gt;</p>
+
+            <p class="blue">&lt;script&gt; &lt;/script&gt;</p>
+
+            <h3 class="white bold center" id="attributes">Global HTML Attributes</h3>
+
+            <p class="white center">These can be used in all elements.</p>
+
+            <p class="green">&lt;!-- Class Attribute: Specifies one or more classes for an element (refers to a class in a style sheet)  --&gt;</p>
+
+            <p class="blue">&lt;tag <span class="lblue">class=</span><span class="orange">"class1 class2 class3"</span>&gt; &lt;/tag&gt;</p>
+
+            <p class="green">&lt;!-- ID Attribute: Specifies a unique id for an element --&gt;</p>
+
+            <p class="blue">&lt;tag <span class="lblue">id=</span><span class="orange">"im_unique"</span>&gt; &lt;/tag&gt;</p>
+
+            <p class="green">&lt;!-- Style Attribute: Specifies an inline CSS style for an element. Use sparingly. --&gt;</p>
+
+            <p class="blue">&lt;tag <span class="lblue">style=</span><span class="orange">"color:blue;text-align:center;"</span>&gt; &lt;/tag&gt;</p>
+
+            <h3 class="white bold center" id="cssselectors">CSS Selectors</h3>
+
+            <p class="green">/* This is a CSS comment. */</p>
+
+            <p class="green">/* Class: Selects all elements with the same class. (class="class1") */</p>
+
+            <p class="yellow">.class1 <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">color</span><span class="white">:</span>&nbsp;
+                <span class="orange">white</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">100%</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* ID: Selects the element with id="top". Only use one per page. */</p>
+
+            <p class="yellow">#top <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">color</span><span class="white">:</span>&nbsp;
+                <span class="orange">white</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">100%</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* All Elements: Selects all elements */</p>
+
+            <p class="blue">* <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">color</span><span class="white">:</span>&nbsp;
+                <span class="orange">white</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">100%</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Element: Selects all instances of an element */</p>
+
+            <p class="yellow">p <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">color</span><span class="white">:</span>&nbsp;
+                <span class="orange">white</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Element.Class: Selects all instances of an element with that class tag. */</p>
+
+            <p class="yellow">p.class1 <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">color</span><span class="white">:</span>&nbsp;
+                <span class="orange">white</span><span class="white">;</span><br>
+                <span class="white">}</span>
+                </p>
+
+            <p class="green">/* Element,Element: Selects all instances of both elements. */</p>
+
+            <p class="yellow">h1,h3,p <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">color</span><span class="white">:</span>&nbsp;
+                <span class="orange">white</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="yellow">h1#top,h3.bold,p.intro <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">color</span><span class="white">:</span>&nbsp;
+                <span class="orange">white</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Before or After: Insert something before or after the content of each element. */</p>
+
+            <p class="yellow">.row1::before,.row1::after <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">clear</span><span class="white">:</span>&nbsp;
+                <span class="orange">both</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Link States: Links can be styled differently depending on what state they're in. */</p>
+
+            <p class="green">/* Unvisited link */</p>
+
+            <p class="yellow">a:link <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">text-decoration</span><span class="white">:</span>&nbsp;
+                <span class="orange">none</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">color</span><span class="white">:</span>&nbsp;
+                <span class="orange">blue</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Visited link */</p>
+
+            <p class="yellow">a:visited <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">text-decoration</span><span class="white">:</span>&nbsp;
+                <span class="orange">none</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">color</span><span class="white">:</span>&nbsp;
+                <span class="orange">purple</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Mouse over link */</p>
+
+            <p class="yellow">a:hover <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">text-decoration</span><span class="white">:</span>&nbsp;
+                <span class="orange">none</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">color</span><span class="white">:</span>&nbsp;
+                <span class="orange">white</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Selected link */</p>
+
+            <p class="yellow">a:active <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">text-decoration</span><span class="white">:</span>&nbsp;
+                <span class="orange">none</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">color</span><span class="white">:</span>&nbsp;
+                <span class="orange">green</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <h3 class="white bold center" id="cssproperties">CSS Properties</h3>
+
+            <p class="white center">These are found inside the { }.</p>
+
+            <p class="green">/* Background Properties */</p>
+
+            <p class="yellow">element <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">background-color</span><span class="white">:</span>&nbsp;
+                <span class="orange">black</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">background-image</span><span class="white">:</span>&nbsp;
+                <span class="orange">url("image/bgimage.jpg")</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">background-attachment</span><span class="white">:</span>&nbsp;
+                <span class="orange">fixed</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Border Properties: Creates a border around an element */</p>
+
+            <p class="yellow">element <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">border-style</span><span class="white">:</span>&nbsp;
+                <span class="orange">solid double ridge inset</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">border-width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">5px 10px 15px 10px</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">border-color</span><span class="white">:</span>&nbsp;
+                <span class="orange">red yellow green blue</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">border-radius</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">5px</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Margin Properties: Creates space around elements outside the borders */</p>
+
+            <p class="yellow">element <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">margin-top</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">20px</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">margin-right</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">10px</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">margin-bottom</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">20px</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">margin-left</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">10px</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Padding Properties: Creates space around an element's content inside the borders */</p>
+
+
+            <p class="yellow">element <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">padding-top</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">20px</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">padding-right</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">10px</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">padding-bottom</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">20px</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">padding-left</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">10px</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Height/Width Properties: Sets the height and width of an element. */</p>
+
+            <p class="yellow">element <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">height</span><span class="white">:</span>&nbsp;
+                <span class="orange">auto</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">400px</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">max-width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">100%</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">min-height</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">200px</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Outline Properties: Creates a line outside the element's border. */</p>
+
+            <p class="yellow">element <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">outline-style</span><span class="white">:</span>&nbsp;
+                <span class="orange">groove</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">outline-width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">10px</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">outline-color</span><span class="white">:</span>&nbsp;
+                <span class="orange">blue</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">outline-offset</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">5px</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Text Properties: Used to format text. */</p>
+
+            <p class="yellow">element <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">color</span><span class="white">:</span>&nbsp;
+                <span class="orange">purple</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">background-color</span><span class="white">:</span>&nbsp;
+                <span class="orange">orange</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">text-align</span><span class="white">:</span>&nbsp;
+                <span class="orange">center</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">text-transform</span><span class="white">:</span>&nbsp;
+                <span class="orange">uppercase</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">text-indent</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">25px</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Float Property: Specifies how an element should float. */</p>
+
+            <p class="yellow">element <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">float</span><span class="white">:</span>&nbsp;
+                <span class="orange">left</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Clear Property: Clears a row. Pushes elements below. */</p>
+
+            <p class="yellow">element <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">clear</span><span class="white">:</span>&nbsp;
+                <span class="orange">both</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Object-fit Property: Specifies how an image or video should be resized to fit its container. */</p>
+
+            <p class="yellow">element <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">object-fit</span><span class="white">:</span>&nbsp;
+                <span class="orange">contain</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Box-Sizing Property: Includes the padding and border in an element's total width and height */</p>
+
+            <p class="blue">* <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">box-sizing</span><span class="white">:</span>&nbsp;
+                <span class="orange">border-box<span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Media Queries: Asks the browser about different device settings. */</p>
+
+            <p class="purple">@media <span class="white">only</span> <span class="orange">screen</span> <span class="white">and (</span><span class="lblue">min-width</span><span class="white">:</span> <span class="lgreen">768px</span><span class="white">) {</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">.col-1 </span><span class="white">{</span><span class="lblue">width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">8.33%</span><span class="white">;</span><span class="white">}</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <h3 class="white bold center" id="responsivecss">Responsive CSS</h3>
+
+            <p class="white center">This design layout uses 12 columns with variable rows.</p>
+
+            <p class="white center">It works on desktops as well as tablets and phones by moving and resizing.</p>
+
+            <br>
+
+            <p class="white">First, determine the screen size of the browser window.</p>
+
+            <p class="green">&lt;!-- Place this in the Head of the HTML --&gt;</p>
+
+            <p class="blue">&lt;meta <span class="lblue">name=</span><span class="orange">"viewport"</span> <span class="lblue">content=</span><span class="orange">"width=device-width, initial-scale=1.0"</span>&gt;</p>
+
+            <br>
+
+            <p class="white">Set up CSS formatting.</p>
+
+            <p class="green">/* Makes every element into a box including margins and padding. */</p>
+
+            <p class="blue">* <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">box-sizing</span><span class="white">:</span>&nbsp;
+                <span class="orange">border-box<span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Allows elements to be stacked in rows without filling all 12 columns */</p>
+
+            <p class="yellow">.row::after <span class="white">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">content</span><span class="white">:</span>&nbsp;
+                <span class="white">""</span><span class="white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">clear</span><span class="white">:</span>&nbsp;
+                <span class="orange">both</span><span class="white">;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">display</span><span class="white">:</span>&nbsp;
+                <span class="orange">table</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Formats columns so they fit on a mobile device first */</p>
+
+            <p class="white">[<span class="lblue">class</span><span class="white">*=</span><span class="orange">"col-"</span><span class="white">} {</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">float</span><span class="white">:</span>&nbsp;
+                <span class="orange">left</span><span class="white">;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lblue">width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">100%</span><span class="white">;</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <p class="green">/* Adjusts to a 12 column view at 768px screen size */</p>
+
+            <p class="purple">@media <span class="white">only</span> <span class="orange">screen</span> <span class="white">and (</span><span class="lblue">min-width</span><span class="white">:</span> <span class="lgreen">768px</span><span class="white">) {</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">.col-1 </span><span class="white">{</span><span class="lblue">width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">8.33%</span><span class="white">;</span><span class="white">}</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">.col-2 </span><span class="white">{</span><span class="lblue">width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">16.66%</span><span class="white">;</span><span class="white">}</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">.col-3 </span><span class="white">{</span><span class="lblue">width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">25%</span><span class="white">;</span><span class="white">}</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">.col-4 </span><span class="white">{</span><span class="lblue">width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">33.33%</span><span class="white">;</span><span class="white">}</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">.col-5 </span><span class="white">{</span><span class="lblue">width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">41.66%</span><span class="white">;</span><span class="white">}</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">.col-6 </span><span class="white">{</span><span class="lblue">width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">50%</span><span class="white">;</span><span class="white">}</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">.col-7 </span><span class="white">{</span><span class="lblue">width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">58.33%</span><span class="white">;</span><span class="white">}</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">.col-8 </span><span class="white">{</span><span class="lblue">width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">66.66%</span><span class="white">;</span><span class="white">}</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">.col-9 </span><span class="white">{</span><span class="lblue">width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">75%</span><span class="white">;</span><span class="white">}</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">.col-10 </span><span class="white">{</span><span class="lblue">width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">83.33%</span><span class="white">;</span><span class="white">}</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">.col-11 </span><span class="white">{</span><span class="lblue">width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">91.66%</span><span class="white">;</span><span class="white">}</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">.col-12 </span><span class="white">{</span><span class="lblue">width</span><span class="white">:</span>&nbsp;
+                <span class="lgreen">100%</span><span class="white">;</span><span class="white">}</span><br>
+                <span class="white">}</span>
+            </p>
+
+            <br>
+
+            <p class="white">Go back to the HTML file and start the body.</p>
+
+            <p class="green">&lt;!-- Each row goes in a container called a &lt;div&gt; --&gt;</p>
+
+            <p class="blue">&lt;div <span class="lblue">class=</span><span class="orange">"row"</span>&gt;</p>
+
+            <p class="blue">&lt;/div&gt;</p>
+
+            <br>
+
+            <p class="white">Define the columns inside this row using nested &lt;div&gt; tags.</p>
+
+            <p class="blue">&lt;div <span class="lblue">class=</span><span class="orange">"row"</span>&gt;</p>
+
+            <p class="green">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Make the first container 2 columns wide --&gt;</p>
+
+            <p class="blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div <span class="lblue">class=</span><span class="orange">"col-2"</span>&gt;</p>
+
+            <p class="green">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Place some content inside this container --&gt;</p>
+
+            <p class="blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</p>
+
+            <p class="green">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Make the next container 8 columns wide --&gt;</p>
+
+            <p class="blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div <span class="lblue">class=</span><span class="orange">"col-8"</span>&gt;</p>
+
+            <p class="green">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Place some content inside this container --&gt;</p>
+
+            <p class="blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</p>
+
+            <p class="green">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Make the last container 2 columns wide --&gt;</p>
+
+            <p class="blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div <span class="lblue">class=</span><span class="orange">"col-2"</span>&gt;</p>
+
+            <p class="green">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Place some content inside this container --&gt;</p>
+
+            <p class="blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</p>
+
+            <p class="green">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Don't forget to close the &lt;div&gt; row container --&gt;</p>
+
+            <p class="blue">&lt;/div&gt;</p>
+
+            <p class="white">Just repeat for more rows. The rows will grow and shrink depending on what content is placed inside the column containers.</p>
+
+            <p class="white">Columns and rows can be nested inside each other to further break down the space and still keep the responsive nature.</p>
+
+            <p class="white">See my other pages for examples.</p>
+
+<!-- PUT MAIN CONTENT IN THIS AREA -->
+        </div>
+
+        <!-- Right Menu: On-page navigation -->
+        <!-- Stays in the Right 2 columns or below the Main Container on Mobile -->       
+        <div class="col-2">
+            <div class="aside">
+                <ul>
+                    <h3>Sections</h3>
+<!-- ON-PAGE NAVIGATION GOES HERE -->
+                    <li>
+                        <a href="#top">Top</a>
+                    </li>
+                    <li>
+                        <a href="#basichtml">Basic HTML</a>
+                    </li>
+                    <li>
+                        <a href="#attributes">Global HTML Attributes</a>
+                    </li>
+                    <li>
+                        <a href="#cssselectors">CSS Selectors</a>
+                    </li>
+                    <li>
+                        <a href="#cssproperties">CSS Properties</a>
+                    </li>
+                    <li>
+                        <a href="#responsivecss">Responsive CSS</a>
+                    </li>
+<!-- ON-PAGE NAVIGATION GOES HERE -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer --> 
+    <!-- Changes should be copied to all other pages -->   
+    <div class="row footer">
+        <div class="col-6">
+            <!-- New links should be added and copied to all other pages -->
+            <a href="https://www.linkedin.com/in/angelakayefox/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="https://www.facebook.com/profile.php?id=100075256146499" target="_blank">
+                <i class="fa-brands fa-facebook-square"></i>
+            </a>
+
+            <a href="https://twitter.com/KatieFox78" target="_blank">
+                <i class="fa-brands fa-twitter-square"></i>
+            </a>
+
+            <a href="https://github.com/KaitlynLilith" target="_blank">
+                <i class="fa-brands fa-github-square"></i>
+            </a>
+
+            <a href="mailto:katiepaquin78@gmail.com" class="big">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+        <div class="col-6">
+            <p>Copyright 2022 Katie Fox</p>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,7 @@
+/*MAIN CONTAINER FORMATTING*/
+/*universal.css will load first*/
+/*Only use ID and CLASS elements in the section*/
+
+h3.h3center {
+  text-align: center;
+}

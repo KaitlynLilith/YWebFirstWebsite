@@ -1,0 +1,50 @@
+body {
+    background-color: lightblue;
+    background-image: url("../Images/cloudsb2.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  h1 {
+    color: rgb(61, 7, 92);
+    text-align: center;
+    font-size: 40px;
+  }
+
+  h3 {
+    color: rgb(61, 7, 92);
+    font-size: 30px;
+    text-align: center;
+  }
+
+  p {
+    color: rgb(61, 7, 92);
+    font-size: 15px;
+    text-align: center;
+  }
+
+  table {
+    width: 100%;
+    color:rgb(61, 7, 92);
+  }
+
+  td{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+  }
+
+  a {
+    color:rgb(61, 7, 92);
+    text-align: center;
+  }
+  
+  img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+  }

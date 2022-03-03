@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Gives the browser instructions on how to display the page -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Imports the universal page first. -->
+  <link rel="stylesheet" href="styles/universal.css">
+  <!-- Imports the CSS for the Main container of the page. Change for each page --> 
+  <link rel="stylesheet" href="styles/gallery.css">
+  <!-- Imports icons -->
+  <script src="https://kit.fontawesome.com/5d5f7bf628.js" crossorigin="anonymous"></script>
+
+  <!-- Displayed on Browser Tab. Change for each page -->
+  <title>Katie Fox-Gallery</title>
+
+</head>
+<body>
+  <!-- Marks the top of the page -->
+  <div id="top"></div>
+
+  <!-- Header: Do not touch! -->
+  <div class="row header">
+    <!-- Places the Brand in the Top Left -->
+    <div class="col-2">
+      <a href="index.html" target="_self">
+        <img src="images/brand200.png" alt="My Brand" id="brand">
+      </a>
+    </div>
+    <!-- Places the Banner in the rest of the space -->
+    <div class="col-10"></div>
+      <img src="images/topbanner2.gif" alt="Top Banner" id="banner">
+    </div>
+  </div>
+
+<!-- Row containing Left Menu, Main Content, and Right Menu -->    
+  <div class="row">
+    <!-- Left Menu -->
+    <!-- Stays in the Left 2 columns or above the other elements in the row on Mobile -->      
+    <div class="col-2 menu">
+      <!-- New pages should be added and copied to all other pages -->
+      <ul>
+        <li>
+          <a href="index.html" target="_self">Home</a>
+        </li>
+        <li>
+          <a class="active" href="gallery.html" target="_self">Gallery</a>
+        </li>
+        <li>
+          <a href="blog.html" target="_self">Blog</a>
+        </li>
+        <li>
+          <a href="knowledge.html" target="_self">HTML/CSS Knowledge</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Main Container -->
+    <!-- Stays in the Middle 8 columns or below the Left Menu on Mobile -->    
+    <div class="col-8">
+
+<!-- PUT MAIN CONTENT IN THIS AREA -->
+      <!-- Heading for Family pictures -->
+      <h1 class="h1center" id="family">Family</h1>
+
+      <!-- Starts a new row of 4 pictures -->
+      <div class="row">
+        <!-- Makes the pictures shrink and move depending on the size of the screen -->
+        <div class="responsive">
+          <!-- Container for each individual piture and description -->
+          <!-- Contains a picture and a description -->
+          <div class="gallery">                  
+            <img src="images/family1.jpg" alt="My Picture" width="600" height="400">
+            <div class="desc">Me</div>
+          </div>
+        </div>
+             
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/family2.jpg" alt="Kendall" width="600" height="400">
+            <div class="desc">My youngest daughter<br>Kendall</div>
+          </div>
+        </div>
+              
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/family3.jpg" alt="Evie" width="600" height="400">
+            <div class="desc">My oldest daughter<br>Evie</div>
+          </div>
+        </div>
+              
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/family4.jpg" alt="Zach and Jennifer" width="600" height="400">
+            <div class="desc">My son and his wife<br>Zach and Jennifer</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Heading for Home pictures -->
+      <h1 class="h1center" id="home">Back Home</h1>
+
+      <div class="row">
+        <div class="responsive">
+          <div class="gallery">                  
+            <img src="images/home1.jpg" alt="Sunset from my porch" width="600" height="400">
+            <div class="desc">Sunset from my porch</div>
+          </div>
+        </div>
+           
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/home2.jpg" alt="The field" width="600" height="400">
+            <div class="desc">My son planting corn in the field</div>
+          </div>
+        </div>
+              
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/home3.jpg" alt="Rope bridge" width="600" height="400">
+            <div class="desc">The rope bridge in my front yard</div>
+          </div>
+        </div>
+                
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/home4.jpg" alt="Evie's playhouse" width="600" height="400">
+            <div class="desc">Evie's playhouse</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="responsive">
+          <div class="gallery">                  
+            <img src="images/home5.jpg" alt="Zach's playhouse" width="600" height="400">
+            <div class="desc">Zach's playhouse</div>
+          </div>
+        </div>
+              
+              
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/home6.jpg" alt="Cave Run Lake at sunset" width="600" height="400">
+            <div class="desc">Cave Run Lake at sunset</div>
+          </div>
+        </div>
+              
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/home7.jpg" alt="A cave at Red River Gorge" width="600" height="400">
+            <div class="desc">A cave at Red River Gorge</div>
+          </div>
+        </div>
+              
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/home8.jpg" alt="The view from Natural Bridge" width="600" height="400">
+            <div class="desc">The view from Natural Bridge</div>
+          </div>
+        </div>
+
+              
+      </div>
+        
+      <!-- Heading for Cake pictures -->
+      <h1 class="h1center" id="cakes">Cakes</h1>
+
+      <div class="row">
+        <div class="responsive">
+          <div class="gallery">                  
+            <img src="images/cake1.jpg" alt="Puppy cake" width="600" height="400">
+            <div class="desc">A cute puppy cake</div>
+          </div>
+        </div>
+              
+              
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/cake2.jpg" alt="Pokeballs" width="600" height="400">
+            <div class="desc">Pokeball cupcakes</div>
+          </div>
+        </div>
+              
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/cake3.jpg" alt="Frozen cake" width="600" height="400">
+            <div class="desc">Frozen cake</div>
+          </div>
+        </div>
+                
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/cake4.jpg" alt="Minnie Mouse cake" width="600" height="400">
+            <div class="desc">Minnie Mouse cake</div>
+          </div>
+        </div>
+                
+      </div>     
+
+      <div class="row">   
+        
+        <div class="responsive">
+          <div class="gallery">                  
+            <img src="images/cake5.jpg" alt="Minnie Mouse cupcakes" width="600" height="400">
+            <div class="desc">Minnie Mouse cupcakes</div>
+          </div>
+        </div>
+              
+              
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/cake6.jpg" alt="Lion cake" width="600" height="400">
+            <div class="desc">Lion cake</div>
+          </div>
+        </div>
+              
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/cake7.jpg" alt="Jewelry cake" width="600" height="400">
+            <div class="desc">Jewelry cake</div>
+          </div>
+        </div>
+                
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/cake8.jpg" alt="Baby bear cake" width="600" height="400">
+            <div class="desc">Baby bear cake</div>
+          </div>
+        </div>
+                
+        </div> 
+        
+      <!-- Heading for Crafts pictures -->
+      <h1 class="h1center" id="crafts">Crafts</h1>
+      <div class="row">
+        <div class="responsive">
+          <div class="gallery">                  
+            <img src="images/craft1.jpg" alt="Star Wars stocking" width="600" height="400">
+            <div class="desc">Star Wars stocking</div>
+          </div>
+        </div>
+              
+              
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/craft2.jpg" alt="Nightmare Before Christmas stocking" width="600" height="400">
+            <div class="desc">Nightmare Before Christmas stocking</div>
+          </div>
+        </div>
+              
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/craft3.jpg" alt="Camo and hunter orange stocking" width="600" height="400">
+            <div class="desc">Camo and hunter orange stocking</div>
+          </div>
+        </div>
+                
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/craft4.jpg" alt="Mesh wreath" width="600" height="400">
+            <div class="desc">Mesh wreath</div>
+          </div>
+        </div>
+                
+      </div>   
+      
+      <div class="row">     
+        
+        <div class="responsive">
+          <div class="gallery">                  
+            <img src="images/craft5.jpg" alt="Web necklace" width="600" height="400">
+            <div class="desc">Web necklace</div>
+          </div>
+        </div>
+              
+              
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/craft6.jpg" alt="Bead link necklace" width="600" height="400">
+            <div class="desc">Bead link necklace</div>
+          </div>
+        </div>
+              
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/craft7.jpg" alt="Plastic canvas wreath" width="600" height="400">
+            <div class="desc">Plastic canvas wreath</div>
+          </div>
+        </div>
+                
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/craft8.jpg" alt="Plastic canvas heart box" width="600" height="400">
+            <div class="desc">Plastic canvas heart box</div>
+          </div>
+        </div>
+                
+      </div> 
+      
+      <div class="row">
+
+        <div class="responsive">
+          <div class="gallery">                  
+            <img src="images/craft9.jpg" alt="Plastic canvas gingerbread house" width="600" height="400">
+            <div class="desc">Plastic canvas gingerbread house</div>
+          </div>
+        </div>
+                            
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/craft10.jpg" alt="Tree napkins" width="600" height="400">
+            <div class="desc">Tree napkins</div>
+          </div>
+        </div>
+         
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/craft11.jpg" alt="Gingerbread ornaments" width="600" height="400">
+            <div class="desc">Gingerbread ornaments</div>
+          </div>
+        </div>
+                
+        <div class="responsive">
+          <div class="gallery">
+            <img src="images/craft12.jpg" alt="Hunter orange cloth mask" width="600" height="400">
+            <div class="desc">Hunter orange cloth mask</div>
+          </div>
+        </div>
+                
+      </div> 
+
+    <!-- PUT MAIN CONTENT IN THIS AREA -->
+    </div>
+
+    <!-- Right Menu: On-page navigation -->
+    <!-- Stays in the Right 2 columns or below the Main Container on Mobile -->       
+    <div class="col-2">
+      <div class="aside">
+        <ul>
+          <h3>Sections</h3>
+<!-- ON-PAGE NAVIGATION GOES HERE -->
+          <li>
+            <a href="#top">Top</a>
+          </li>
+          <li>
+            <a href="#family">Family</a>
+          </li>
+          <li>
+            <a href="#home">Back Home</a>
+          </li>
+          <li>
+            <a href="#cakes">Cakes</a>
+          </li>
+          <li>
+            <a href="#crafts">Crafts</a>
+          </li>
+<!-- ON-PAGE NAVIGATION GOES HERE -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer --> 
+  <!-- Changes should be copied to all other pages -->   
+  <div class="row footer">
+    <div class="col-6">
+      <!-- New links should be added and copied to all other pages -->
+      <a href="https://www.linkedin.com/in/angelakayefox/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+
+      <a href="https://www.facebook.com/profile.php?id=100075256146499" target="_blank">
+        <i class="fa-brands fa-facebook-square"></i>
+      </a>
+
+      <a href="https://twitter.com/KatieFox78" target="_blank">
+        <i class="fa-brands fa-twitter-square"></i>
+      </a>
+
+      <a href="https://github.com/KaitlynLilith" target="_blank">
+        <i class="fa-brands fa-github-square"></i>
+      </a>
+
+      <a href="mailto:katiepaquin78@gmail.com" class="big">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    </div>
+    <div class="col-6">
+      <p>Copyright 2022 Katie Fox</p>
+    </div>
+  </div>
+    
+</body>
+</html>  

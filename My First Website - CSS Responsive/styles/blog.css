@@ -1,0 +1,38 @@
+/*MAIN CONTAINER FORMATTING*/
+/*Universal page will load first*/
+/*Only use ID and CLASS elements in the section*/
+
+/* CLASS FORMATTING */
+/* Place all class formating here. */
+
+/* Makes the blog post background color teal */
+.blogPostt {
+  background-color: rgb(91, 201, 201);
+  padding: 10px;
+  margin: 15px;
+}
+
+/* Makes the blog post background color purple */
+.blogPostp {
+  background-color: #b5b0fb;
+  padding: 10px;
+  margin: 15px;
+}
+
+/* Formats the pictures in the blogs to make them a fixed height and centered */
+img.blog {
+  height: 400px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Adds padding to paragraphs */
+p.ppadding {
+  padding: 30px;
+}
+
+/* ID FORMATTING */
+/* Place all id formating here. */

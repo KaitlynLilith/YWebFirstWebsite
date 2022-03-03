@@ -1,0 +1,53 @@
+/*MAIN CONTAINER*/
+/*universal.css will load first*/
+/*Only use ID and CLASS in the section*/
+
+/* CLASS FORMATTING */
+/* Place all class formating here. */
+
+
+/* ID FORMATTING */
+/* Place all id formating here. */
+
+
+/* Responsive CSS */
+
+/* Creates a border around the picture and description */
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+/* Image takes up 100% width of container */
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+/* Formats the description below the pictures */
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+/* Makes a single container take up 100% of width on Mobile Devices */
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 100%;
+}
+
+/* Allows 2 containers on slightly larger screens */
+@media only screen and (min-width: 500px) {
+  .responsive {
+    width: 49.99999%;
+  }
+}
+
+/* Allows 4 containers on screens larger that 700px*/
+@media only screen and (min-width: 700px) {
+  .responsive {
+    width: 24.99999%;
+    margin: 6px 0;
+  }
+}

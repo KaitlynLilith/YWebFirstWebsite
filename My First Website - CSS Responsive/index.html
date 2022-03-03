@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Gives the browser instructions on how to display the page -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Imports the universal page first. -->
+  <link rel="stylesheet" href="styles/universal.css">
+  <!-- Imports the CSS for the Main container of the page. Change for each page --> 
+  <link rel="stylesheet" href="styles/index.css">
+  <!-- Imports icons -->
+  <script src="https://kit.fontawesome.com/5d5f7bf628.js" crossorigin="anonymous"></script>
+
+  <!-- Displayed on Browser Tab. Change for each page -->
+  <title>Katie Fox-Welcome</title>
+
+</head>
+<body>
+  <!-- Marks the top of the page -->
+  <div id="top"></div>
+  
+<!-- Header: Do not touch! -->
+  <div class="row header">
+    <!-- Places the Brand in the Top Left -->
+    <div class="col-2">
+      <a href="index.html" target="_self">
+        <img src="images/brand200.png" alt="My Brand" id="brand">
+      </a>
+    </div>
+    <!-- Places the Banner in the rest of the space -->
+    <div class="col-10"></div>
+      <img src="images/topbanner2.gif" alt="Top Banner" id="banner">
+    </div>
+  </div>
+
+<!-- Row containing Left Menu, Main Content, and Right Menu -->    
+  <div class="row">
+    <!-- Left Menu -->
+    <!-- Stays in the Left 2 columns or above the other elements in the row on Mobile -->      
+    <div class="col-2 menu">
+      <!-- New pages should be added and copied to all other pages -->
+      <ul>
+        <li>
+          <a class="active" href="index.html" target="_self">Home</a>
+        </li>
+        <li>
+          <a href="gallery.html" target="_self">Gallery</a>
+        </li>
+        <li>
+          <a href="blog.html" target="_self">Blog</a>
+        </li>
+ 
+        <li>
+          <a href="knowledge.html" target="_self">HTML/CSS Knowledge</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Main Container -->
+    <!-- Stays in the Middle 8 columns or below the Left Menu on Mobile -->    
+    <div class="col-8">
+<!-- PUT MAIN CONTENT IN THIS AREA -->
+      <div>
+        <!-- Contains a title, a picture, and a paragraph -->
+        <h3 class="center">Welcome!</h3>
+        <img src="images/MyGirls.jpg" alt="My Girls" id="girls">
+        <p class="center ppadding">
+          I'm a computer programmer. I enjoy coding applications and web pages. I love challenges and puzzles. I also love to teach. I've designed play structures and built them. I decorate cakes, sew, make jewelry, and many other crafts. I'm from a rural community in Kentucky, but I live in southern Wisconsin presently.
+        </p>
+      </div>
+      <!-- Puts padding around the row and separates rows -->
+      <div class="row-padding">
+        <!-- Makes each list take a third of the container -->
+        <div class="third">
+          <h3 id="hobbies">Hobbies</h3>
+          <ul class="lists">
+            <li>Coding</li>
+            <li>3D Modeling</li>
+            <li>Video Game Design</li>
+            <li>Languages</li>
+            <li>Camping</li>        
+          </ul>
+        </div>
+      
+        <div class="third">
+          <h3 id="music">Favourite Music Genres</h3>
+          <ul class="lists">
+            <li>Country</li>
+            <li>Heavy Metal</li>
+            <li>Alternative</li>
+            <li>Pop</li>
+            <li>Rap</li>        
+          </ul>
+        </div>
+      
+        <div class="third">
+          <h3 id="food">Favourite Foods</h3>
+          <ul class="lists">
+            <li>Dessert</li> 
+            <li>Italian</li>
+            <li>Mexican</li>
+            <li>Chinese</li>
+            <li>Cajun</li>   
+          </ul>
+        </div>
+      </div>
+<!-- PUT MAIN CONTENT IN THIS AREA -->
+    </div>
+
+    <!-- Right Menu: On-page navigation -->
+    <!-- Stays in the Right 2 columns or below the Main Container on Mobile -->       
+    <div class="col-2">
+      <div class="aside">
+        <h3>Sections</h3>
+        <ul>
+<!-- ON-PAGE NAVIGATION GOES HERE -->
+          <li>
+            <a href="#top">Top</a>
+          </li>
+          <li>
+            <a href="#hobbies">Hobbies</a>
+          </li>
+          <li>
+            <a href="#music">Favourite Music Genres</a>
+          </li>
+          <li>
+            <a href="#food">Favourite Foods</a>
+          </li>
+<!-- ON-PAGE NAVIGATION GOES HERE -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer --> 
+  <!-- Changes should be copied to all other pages -->   
+  <div class="row footer">
+    <div class="col-6">
+      <!-- New links should be added and copied to all other pages -->
+      <a href="https://www.linkedin.com/in/angelakayefox/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+
+      <a href="https://www.facebook.com/profile.php?id=100075256146499" target="_blank">
+        <i class="fa-brands fa-facebook-square"></i>
+      </a>
+
+      <a href="https://twitter.com/KatieFox78" target="_blank">
+        <i class="fa-brands fa-twitter-square"></i>
+      </a>
+
+      <a href="https://github.com/KaitlynLilith" target="_blank">
+        <i class="fa-brands fa-github-square"></i>
+      </a>
+
+      <a href="mailto:katiepaquin78@gmail.com" class="big">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    </div>
+    <div class="col-6">
+      <p>Copyright 2022 Katie Fox</p>
+    </div>
+  </div>
+</body>
+</html>

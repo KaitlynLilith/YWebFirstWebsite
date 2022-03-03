@@ -1,0 +1,58 @@
+/*MAIN CONTAINER FORMATTING*/
+/*Universal page will load first*/
+/*Only use ID and CLASS elements in the section*/
+
+h3.h3center {
+  text-align: center;
+}
+
+ul.lists {
+  list-style-type: none;
+  color:white;
+}
+
+img.girls {
+  height: 400px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-containerg {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+  
+.grid-itemg {
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  padding: 0px;
+  font-size: 30px;
+}
+  
+.item1g {
+  grid-area: Main;
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+  
+.item2g {
+  grid-area: LeftBox;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.item3g {
+  grid-area: CenterBox;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.item4g {
+  grid-area: RightBox;
+  grid-column: 3;
+  grid-row: 2;
+}

@@ -1,0 +1,57 @@
+/*MAIN CONTAINER FORMATTING*/
+/*universal.css will load first*/
+/*Only use ID and CLASS elements in the section*/
+
+
+/* CLASS FORMATTING */
+/* Place all class formating here. */
+
+/* Formats Unordered Lists */
+ul.lists {
+    list-style-type: none; 
+    color:white;
+}
+
+/* Adds padding to paragraphs */
+p.ppadding {
+  padding: 40px;
+}
+
+/* ID FORMATTING */
+/* Place all id formating here. */
+
+/* Formats the image with ID 'girls'  */
+img#girls {
+  height: 400px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Responsive CSS */
+
+/* Places padding around the row */
+.row-padding {
+    padding: 10px
+}
+
+/* Allows elements to be stacked in rows without filling all 12 columns */
+.row-padding::after,.row-padding::before {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+/* Makes the three columns load on top of each other on Mobile devices faster */
+.third{
+    float:left;
+    width:100%
+}
+
+/* Adjusts to a 3 column view at 601px screen size */
+@media (min-width:601px){
+    .third{width:33.33333%}
+}
+

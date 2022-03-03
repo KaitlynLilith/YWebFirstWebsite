@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Gives the browser instructions on how to display the page -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Imports the universal page first. -->
+  <link rel="stylesheet" href="styles/universal.css">
+  <!-- Imports the CSS for the Main container of the page. Change for each page --> 
+  <link rel="stylesheet" href="styles/blog.css">
+  <!-- Imports icons -->
+  <script src="https://kit.fontawesome.com/5d5f7bf628.js" crossorigin="anonymous"></script>
+
+  <!-- Displayed on Browser Tab. Change for each page -->
+  <title>Katie Fox-Blog</title>
+
+</head>
+<body>
+  <!-- Marks the top of the page -->
+  <div id="top"></div>
+
+  <!-- Header: Do not touch! -->
+  <div class="row header">
+    <!-- Places the Brand in the Top Left -->
+    <div class="col-2">
+      <a href="index.html" target="_self">
+        <img src="images/brand200.png" alt="My Brand" id="brand">
+      </a>
+    </div>
+    <!-- Places the Banner in the rest of the space -->
+    <div class="col-10"></div>
+      <img src="images/topbanner2.gif" alt="Top Banner" id="banner">
+    </div>
+  </div>
+
+  <!-- Row containing Left Menu, Main Content, and Right Menu -->    
+  <div class="row">
+    <!-- Left Menu -->
+    <!-- Stays in the Left 2 columns or above the other elements in the row on Mobile -->      
+    <div class="col-2 menu">
+      <!-- New pages should be added and copied to all other pages -->
+      <ul>
+        <h3>My Pages</h3>
+        <li>
+          <a href="index.html" target="_self">Home</a>
+        </li>
+        <li>
+          <a href="gallery.html" target="_self">Gallery</a>
+        </li>
+        <li>
+          <a class="active" href="blog.html" target="_self">Blog</a>
+        </li>
+        <li>
+          <a href="knowledge.html" target="_self">HTML/CSS Knowledge</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Main Container -->
+    <!-- Stays in the Middle 8 columns or below the Left Menu on Mobile -->    
+    <div class="col-8">
+<!-- PUT MAIN CONTENT IN THIS AREA -->
+      <div>
+        <!-- Main title and info -->
+        <h1>My Blog</h1>
+        <p class="center">Newest posts are at the top.</p>
+      </div>
+      <!-- Each post is in a colored container -->
+      <!-- Each post contains a header, an image, and a paragraph -->
+      <!-- Add new posts directly under this comment -->
+      <div class="row blogPostt" id="killer">
+        <h3 class="center">Killer</h3>
+        <img src="images/killer.jpg" alt="killer" class="blog">
+        <p class="ppadding">Killer has been my dog since 2017. He's the sweetest dog I've ever had. I had to leave him back in Kentucky when I moved to Wisconsin.</p>
+      </div>
+      <div class="row blogPostp" id="kendall">
+        <h3 class="center">Kendall</h3>
+        <img src="images/kendall.jpg" alt="" class="blog">
+        <p class="ppadding">Kendall is my youngest daughter. She just turned 10 years old, but she thinks she's a teenager. She's in Archery and Cub Scouts. She was in dance for 3 years. She was a point guard on the U10 YMCA basketball team in 2019-2020. Her favorite colors are red, black, and purple.</p>
+      </div>
+      <div class="row blogPostt" id="evie">
+        <h3 class="center">Evie</h3>
+        <img src="images/evieanna.jpg" alt="Evie and Anna" class="blog">
+        <p class="ppadding">Evie is my oldest daughter, and she's 18 years old. She engaged to a girl named Anna. She's almost a black belt in Tae Kwon Do. She enjoys driving the tractors around the farm. She has two dogs, Misty and Kovu, and she's taking care of my dog, Killer.</p>
+      </div>
+      <div class="row blogPostp" id="zach">
+        <h3 class="center">Zach</h3>
+        <img src="images/zach.jpg" alt="" class="blog">
+        <p class="ppadding">Zach is my son, and he's 24 years old. He's married to a girl named Jennifer. He's an Eagle Scout that earned 82 merit badges. He owns a landscaping business in Kentucky and raises tropical fish as his side business. He lives in a 'tiny house' with his wife and dog, Karma, on the farm.</p>
+      </div>
+
+<!-- PUT MAIN CONTENT IN THIS AREA -->
+    </div>
+
+    <!-- Right Menu: On-page navigation -->
+    <!-- Stays in the Right 2 columns or below the Main Container on Mobile -->       
+    <div class="col-2">
+      <div class="aside">
+        <h3>Sections</h3>
+        <ul>
+<!-- ON-PAGE NAVIGATION GOES HERE -->
+          <li>
+            <a href="#top">Top</a>
+          </li>
+          <li>
+            <a href="#killer">Killer</a>
+          </li>
+          <li>
+            <a href="#kendall">Kendall</a>
+          </li>
+          <li>
+            <a href="#evie">Evie</a>
+          </li>
+          <li>
+            <a href="#zach">Zach</a>
+          </li>
+<!-- ON-PAGE NAVIGATION GOES HERE -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer --> 
+  <!-- Changes should be copied to all other pages -->   
+  <div class="row footer">
+    <div class="col-6">
+      <!-- New links should be added and copied to all other pages -->
+      <a href="https://www.linkedin.com/in/angelakayefox/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+
+      <a href="https://www.facebook.com/profile.php?id=100075256146499" target="_blank">
+        <i class="fa-brands fa-facebook-square"></i>
+      </a>
+
+      <a href="https://twitter.com/KatieFox78" target="_blank">
+        <i class="fa-brands fa-twitter-square"></i>
+      </a>
+
+      <a href="https://github.com/KaitlynLilith" target="_blank">
+        <i class="fa-brands fa-github-square"></i>
+      </a>
+
+      <a href="mailto:katiepaquin78@gmail.com" class="big">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    </div>
+    <div class="col-6">
+      <p>Copyright 2022 Katie Fox</p>
+    </div>
+  </div>  
+</body>
+</html>

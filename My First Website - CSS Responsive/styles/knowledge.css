@@ -1,0 +1,52 @@
+ /*MAIN CONTAINER FORMATTING*/
+/*universal.css will load first*/
+/*Only use ID and CLASS elements in the section*/
+
+/* CLASS FORMATTING */
+/* Place all class formating here. */
+
+/* Changes text color to green */
+.green{
+    color:rgb(95, 151, 10)
+}
+
+/* Changes text color to white */
+.white {
+    color:white;
+}
+
+/* Changes text color to blue */
+.blue {
+    color:rgb(55, 167, 231);
+}
+
+/* Changes text color to light blue */
+.lblue {
+    color:rgb(164, 225, 243);
+}
+
+/* Changes text color to orange */
+.orange {
+    color:rgb(245, 180, 30);
+}
+
+/* Changes text color to yellow */
+.yellow {
+    color:rgb(243, 219, 169);
+}
+
+/* Changes text color to light green */
+.lgreen {
+    color:rgb(199, 228, 157);
+}
+
+/* Changes text color to purple */
+.purple {
+    color:rgb(219, 91, 236);
+}
+
+
+    
+
+/* ID FORMATTING */
+/* Place all id formating here. */

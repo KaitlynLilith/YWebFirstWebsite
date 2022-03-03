@@ -1,0 +1,199 @@
+/*This is the universal CSS for the whole website*/
+/*Anything changed below effects all pages.
+/*Any other changes should be made through ID or CLASS on individual CSS*/
+
+/* Makes every element into a box that includes margins and padding. */
+* {
+  box-sizing: border-box;
+}
+
+
+/* ELEMENT FORMATTING */
+/* Place all element formating here. */
+
+/* Effects all elements */
+html {
+  background-color: black;
+  font-family: "Lucida Sans", sans-serif;
+  color: white;
+}
+
+/* Formats all icons */
+i {
+  font-size: 50px;
+  padding: 0px 10px;
+}
+
+/* Formats all Anchors */
+a {
+  color:white;
+  text-decoration: none;
+}
+
+/* Formats all H1 */
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+/* Formats all H3 */
+h3 {
+  color: white;
+  font-size: 30px;
+}
+
+/* Formats all P */
+p {
+  color: white;
+  font-size: 20px;
+}
+
+
+/* CLASS FORMATTING */
+/* Place all class formating here. */
+
+/* Centers elements */
+.center {
+  text-align: center;
+}
+
+/* Changes text to bold */
+.bold {
+  font-weight: bold;
+}
+
+
+/* ID FORMATTING */
+/* Place all id formating here. */
+
+
+
+
+/* DO NOT TOUCH BELOW THIS LINE */
+/* DO NOT TOUCH BELOW THIS LINE */
+/* DO NOT TOUCH BELOW THIS LINE */
+/* DO NOT TOUCH BELOW THIS LINE */
+
+/* Header image formating */
+
+/* Formats the Brand image at Top Left */
+img#brand {
+  max-width: 200px;
+  max-height: 200px;
+  padding-left: 20px;
+}
+
+/* Formats the Banner image at Top */
+img#banner {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: fill;
+}
+
+/* Responsive CSS */
+
+
+
+/* Allows elements to be stacked in rows without filling all 12 columns */
+.row::after,.row::before {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Formats columns */
+[class*="col-"] {
+  float: left;
+  /* Makes the page load on Mobile devices faster */
+  width: 100%;
+}
+
+/* Formats header */
+.header {
+  padding: 0px;
+}
+
+/* Formats Unordered Lists in the Left Menu */
+.menu ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  text-align: center;
+}
+
+/* Formats List Items in the Left Menu */
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: rgb(91, 201, 201);
+}
+
+/* Formats Hover state of List Items in the Left Menu */
+.menu li:hover {
+  background-color: #b5b0fb;
+}
+
+/* Formats the links in the menu. */
+.menu li a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Makes the  menu button highlight when on that page. */
+.menu li a.active {
+  background-color: #b5b0fb;
+  color: white;
+}
+
+/* Formats the Right Menu box */
+.aside {
+  background-color: #b5b0fb;
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  margin: 20px;
+  position: fixed;
+}
+
+/* Formats Unordered Lists in the Right Menu */
+.aside ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+}
+  
+/* Formats List Items in the Right Menu */
+.aside li {
+  padding: 8px;
+  margin-bottom: 7px;
+}
+ 
+/* Formats Hover state of List Items in the Right Menu */
+.aside li:hover {
+  background-color:  rgb(91, 201, 201);
+}
+
+/* Formats Footer */
+.footer {
+  background-color: rgb(91, 201, 201);
+  padding: 15px;
+  margin: 20px;
+}
+
+/* Adjusts to a 12 column view at 768px screen size */
+@media only screen and (min-width: 768px) {  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}

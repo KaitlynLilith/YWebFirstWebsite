@@ -1,0 +1,93 @@
+/*This is the universal CSS for the whole website*/
+/*Anything changed below effects all pages.
+/*Any other changes should be made through ID or CLASS on individual CSS*/
+
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+  
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+  
+h3 {
+    color: white;
+    font-size: 30px;
+}
+  
+p {
+    color: white;
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+}
+  
+a {
+    color:white;
+}
+  
+img#brand {
+    height: 200px;
+    width: 200px;
+}
+  
+img#banner {
+    height: 200px;
+    width: 100%;
+}
+  
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: 200px auto 200px;
+    grid-gap: 10px;
+    padding: 10px;
+}
+    
+.grid-item {
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    padding: 0px;
+    font-size: 30px;
+}
+    
+.item1 {
+    grid-area: Brand;
+    grid-column: 1;
+    grid-row: 1;
+}
+    
+.item2 {
+    grid-area: TopBanner;
+    grid-column: 2;
+    grid-row: 1;
+}
+  
+.item3 {
+    grid-area: LeftMenu;
+    grid-column: 1;
+    grid-row: 2;
+}
+  
+.item4 {
+    grid-area: MainArea;
+    grid-column: 2;
+    grid-row: 2;
+}
+  
+.item5 {
+    grid-area: RightMenu;
+    grid-column: 3;
+    grid-row: 2;
+}
+    
+.item6 {
+    grid-area: Footer;
+    grid-column: 1 / span 3;
+    grid-row: 3;
+}
